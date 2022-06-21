@@ -27,7 +27,11 @@ class Main {
     scan.close();
     for(int z=0;z<liczba;z++)
     {
-      if(dane[z]==1)
+      if(dane[z]==0)
+       {
+        a=1;
+       }
+      else if((dane[z]==1))
        {
         b=1;
        }
@@ -90,7 +94,7 @@ class Main {
                                   
       else 
       {
-        a=1;
+       
       }
     }
     System.out.println("Wykres");
